@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.31;
+    letter-spacing: 0.32px;
+    font-style: normal;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2e2f42;
+}
+
+img {
+    display: block;
+}
+
+section {
+    padding: 120px 0; /* ======расстрояние между секциями ======= */
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ========================== HEADER ========================== */
+
+.header {
+    flex-grow: 0;
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo,
+.header-logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.header-pathlogo {
+    color: #2e2f42;
+}
+
+.header-logo {
+    margin-right: 76px;
+    display: flex;
+}
+
+.header-navigation {
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-menu-list {
+    color: #2e2f42;
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu-link {
+    padding: 24px 0;
+}
+
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
+.header-contact {
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.header-contact-link {
+    color: #434455;
+}
+
+.header-contact-link:hover {
+    color: #404bbf;
+}
+
+.header-contact-link:focus {
+    color: #404bbf;
+}
+
+.header-contact-list {
+    display: flex;
+    gap: 40px;
+    margin: 24px 0 24px 332px;
+}
+
+
+
+/* ========================== MAIN ========================== */
+
+.main {
+    flex-grow: 1;
+}
+
+/* ========================== PRIMARY (1) ========================== */
+
+.primary {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;  /* <----------- padding */
+    justify-content: center;
+}
+
+.primary-title {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto;
+}
+
+.primary-btn {
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.64px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    padding: 16px 32px; /* <----------- padding у кнопки  */
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 48px;
+    border-radius: 4px;
+}
+
+.primary-btn:hover {
+    background-color: #404BBF;
+}
+
+.primary-btn:focus {
+    background-color: #404BBF;
+}
+
+/* ========================== CONTENT (2) ========================== */
+
+.content-subtitle {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+}
+
+.content-item-text {
+    margin: 0;
+    line-height: 1.5;
+    width: 264px;
+}
+
+.content-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.content-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+/* ========================== OUR TEAM (3) ========================== */
+
+.our-team-title {
+    margin: 0;
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.our-team-subtitle {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.our-team-item-text {
+    text-align: center;
+}
+
+.our-team {
+    background-color: #f4f4fd;
+    text-align: center;
+}
+
+.our-team-item {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.our-team-text {
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 0;/* <----------- padding */
+}
+
+.our-portfolio {
+    text-align: center;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+
+
+
+/* ========================== PORTFOLIO (4) ========================== */
+
+
+.our-portfolio-title {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.our-portfolio-subtitle {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+}
+
+.our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.our-portfolio-item {
+    text-align: left;
+    background: #fff;
+    width: calc((100% - 48px) / 3);
+}
+
+.our-portfolio-text {
+   /* p без свойств */ 
+}
+
+.portfolio-text {
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+
+/* ========================== FOOTER ========================== */
+
+.footer {
+    background-color: #2e2f42;
+        
+    padding: 100px 0;/* <----------- padding у футера */
+}
+
+.footer-conteiner {
+    gap: 17.5px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;/* <----------- margin у лого */
+}
+
+.footer-color-logo {
+    color: #f4f4fd;
+}
+
+.footer-p {
+    margin: 0;
+    color: #f4f4fd;
+    line-height: 1.5;
+    width: 264px;
+}
