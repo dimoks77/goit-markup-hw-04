@@ -179,18 +179,18 @@ h3 {
 } */
 
 .primary {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    /* background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/bg.jpeg);   /* <----------- две точки т.к. мы в каталоге css  */
+            url(../images/bg.jpeg);   
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-color: #2e2f42;
         text-align: center;
         padding: 188px 0;
-        /* <----------- padding */
+        
     justify-content: center;
-    max-width: 1440px;
+    max-width: 1440px; */
 }
 
 .primary-title {
