@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -225,6 +226,22 @@ h3 {
         overflow: hidden;
 }
 
+.features-item-icon {}
+
+.features-container-icon {
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
+
 /* ========================== OUR TEAM (3) ========================== */
 
 .our-team-title {
@@ -276,7 +293,44 @@ h3 {
     gap: 24px;
 }
 
+.social-madia {
+    flex-shrink: 0;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
 
+.social-madia-li {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.social-network {
+    color: #f4f4fd;
+    fill: #f4f4fd;
+}
+
+.social-link-li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-li:hover,
+.social-link-li:focus {
+    background-color: #404bbf;
+}
 
 
 /* ========================== PORTFOLIO (4) ========================== */
