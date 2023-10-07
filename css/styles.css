@@ -89,8 +89,9 @@ img {
     color: #404bbf;
 }
 
-.active::after {
-    content: "";
+.active::after { 
+    /* Рисочка под Studio */
+    content: "";  
     width: 48px;
     height: 4px;
     background-color: #404bbf;
@@ -386,7 +387,7 @@ img {
 }
 
 .portfolio-item:hover .overlay-parag {
-    transform: translatey(0);
+    transform: translatey(0); /*  анимация */
 }
 
 .overlay-parag {
